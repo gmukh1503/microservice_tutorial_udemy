@@ -24,7 +24,7 @@ public class CurrencyConversionService {
 	private RestTemplate restTemplate;
 	
 	@Autowired
-	private CurrencyExchangeFeignProxy feignProxy;
+	private CurrencyConversionFeignProxy feignProxy;
 
 	/*
 	 * Invoking external Microservice using RestTemplate.
